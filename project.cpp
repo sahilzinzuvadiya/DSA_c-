@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 main(){
+    cout << "question\n";
     int a;
     cout<<"your mark is 90\n";
     cout<<"your mark is 80\n";
