@@ -24,7 +24,7 @@ main(){
             cout<<"your grade is D.\nyou passed";
             break;
         case 5:
-            cout<<"your grade is F.\nsorry,you failed";
+            cout<<"your grade is F.\nsorry,you are failed";
             break;
     }
 }
