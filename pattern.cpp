@@ -51,9 +51,9 @@ for(int a=5;a>=1;a--)
 // 4 5
 // 5
 int x,y;
-for(int x=1;x<=5;x++)
+for(int x=5;x>=1;x--)
     {
-        for(int y=x;y<=5;y++)
+        for(int y=1;y<=x;y++)
         {
             cout<<y;
         }
