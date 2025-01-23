@@ -1,10 +1,19 @@
- for (int i = 0; i <= 4; i++) {
-        int x;
-        cout << "Enter element: ";
-        cin >> x;
-        v1.push_back(x);
-         
-        }
-        for(int i = 0; i <= 4; i++){
-            cout << v1[i] << endl;
-        }
+cout<<"First node delete"<<endl;
+    // cout << "Enter position:";
+    // cin >> pos;
+    // ptr = head;
+    // for (int i = 0; i < pos; i++)
+    // {
+    //     ptr = ptr->next;
+        
+    // }
+    // head=head->next;
+    // delete ptr;
+    // ptr=NULL;
+    
+    // ptr = head;
+    // while (ptr != NULL)
+    // {
+    //     cout << ptr->data << " ";
+    //     ptr = ptr->next;
+    // }
