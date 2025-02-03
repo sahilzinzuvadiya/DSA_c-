@@ -12,9 +12,9 @@ public:
 
     void push()
     {
-        if (count ==capacity)
+        if (count == capacity)
         {
-            cout << "stack is full"<<endl;
+            cout << "stack is full" << endl;
         }
         else
         {
@@ -23,7 +23,7 @@ public:
             cin >> arr[top];
             count++;
         }
-        cout<<endl;
+        cout << endl;
     }
     void pop()
     {
@@ -35,31 +35,32 @@ public:
         }
         else
         {
-            cout << "stack is empty"<<endl;
+            cout << "stack is empty" << endl;
         }
     }
     void display()
     {
         for (int i = top; i >= 0; i--)
         {
-            cout << arr[i] << " "<<endl;
+            cout << arr[i] << " " << endl;
         }
         cout << "Total count=" << count;
-        cout<<endl;
+        cout << endl;
     }
     void peek()
     {
-        if(top==-1){
-            cout<<"stack is empty";
-
+        if (top == -1)
+        {
+            cout << "stack is empty";
         }
-        else{
-            cout<<"Top element is:"<<arr[top]<<endl;
+        else
+        {
+            cout << "Top element is:" << arr[top] << endl;
         }
     }
     void size()
     {
-        cout<<"stack size is:"<<count<<endl;
+        cout << "stack size is:" << count << endl;
     }
 };
 int main()
